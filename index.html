@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Felipe Carvalho | Cantor sertanejo para casamentos e eventos</title>
+<meta name="description" content="Show sertanejo ao vivo para casamentos e eventos: sertanejo universitário e grandes modões, muita interação com o público e som profissional incluso. Consulte sua data pelo WhatsApp.">
+<link rel="canonical" href="https://ofelipecantor.com.br/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Felipe Carvalho | Cantor sertanejo">
+<meta property="og:description" content="Sertanejo universitário e grandes modões ao vivo no seu evento. Som profissional incluso. Consulte sua data.">
+<meta property="og:url" content="https://ofelipecantor.com.br/">
+<meta property="og:image" content="https://ofelipecantor.com.br/img/og-felipe.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Felipe Carvalho cantando ao vivo">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0b0b0b">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"MusicGroup",
+  "name":"Felipe Carvalho",
+  "genre":"Sertanejo",
+  "url":"https://ofelipecantor.com.br/",
+  "image":"https://ofelipecantor.com.br/img/og-felipe.jpg",
+  "telephone":"+55 31 99617-2484",
+  "sameAs":[
+    "https://www.instagram.com/ofelipecantor/",
+    "https://open.spotify.com/artist/2UkRGOVHLDnMWNOs1Fw3Lr",
+    "https://youtube.com/playlist?list=PLmecEgVu3P52wYwwgE-mFGfpSdQsLtNv1"
+  ]
+}
+</script>
+<style>
+  :root{
+    --bg:#0a0a0a;
+    --bg-2:#121212;
+    --card:#171717;
+    --line:#ffffff1a;
+    --ink:#f6f3ee;
+    --muted:#a9a49c;
+    --orange:#ff7a00;
+    --orange-2:#ff9a3d;
+    --wa:#25d366;
+    --radius:18px;
+    --display:"Montserrat",system-ui,sans-serif;
+    --body:"Poppins",system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;scroll-padding-top:80px}
+  body{background:var(--bg);color:var(--ink);font-family:var(--body);font-weight:300;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+  .wrap{width:min(1180px,100% - 32px);margin-inline:auto}
+  section{position:relative}
+  .eyebrow{font-size:13px;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--orange);display:flex;align-items:center;gap:12px}
+  .eyebrow::before{content:"";width:28px;height:2px;background:var(--orange)}
+  .h2{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:clamp(34px,5.4vw,64px);line-height:.98;letter-spacing:-.01em;margin-top:14px}
+  .h2 em{font-style:normal;color:var(--orange)}
+  .lead{color:var(--muted);font-size:clamp(16px,1.6vw,18px);max-width:58ch}
+
+  /* Botões */
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 26px;border-radius:999px;font-weight:600;font-size:15px;letter-spacing:.02em;transition:transform .2s,background .2s,border-color .2s,box-shadow .2s;white-space:nowrap}
+  .btn svg{width:20px;height:20px;flex-shrink:0}
+  .btn-wa{background:var(--orange);color:#111;box-shadow:0 10px 30px -10px #ff7a0099}
+  .btn-wa:hover{background:var(--orange-2);transform:translateY(-2px)}
+  .btn-ghost{border:1.5px solid #ffffff40}
+  .btn-ghost:hover{border-color:#fff;transform:translateY(-2px)}
+
+  /* NAV */
+  .nav{position:fixed;inset:0 0 auto;z-index:50;transition:background .3s,backdrop-filter .3s,border-color .3s;border-bottom:1px solid transparent}
+  .nav.scrolled{background:#0a0a0acc;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-color:var(--line)}
+  .nav .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+  .logo{display:block}
+  .logo img{height:46px;width:auto}
+  footer .logo img{height:56px}
+  .menu{display:flex;gap:30px;font-size:14px;font-weight:500}
+  .menu a{opacity:.8;transition:opacity .2s}
+  .menu a:hover{opacity:1}
+  .nav .btn{padding:10px 18px;font-size:14px}
+
+  /* HERO */
+  .hero{min-height:100svh;display:flex;align-items:flex-end;overflow:hidden;background:
+    radial-gradient(60% 70% at 72% 40%,#ff7a0033 0%,transparent 60%),
+    radial-gradient(40% 40% at 70% 100%,#ff7a0022 0%,transparent 70%),
+    linear-gradient(#0009,#0009),url(img/fundo.webp) center/cover,var(--bg)}
+  .hero::after{content:"";position:absolute;inset:auto 0 0;height:180px;background:linear-gradient(transparent,var(--bg));z-index:2;pointer-events:none}
+  .hero-bgword{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);font-family:var(--display);font-weight:900;font-size:clamp(90px,19vw,300px);line-height:1;letter-spacing:-.02em;color:transparent;-webkit-text-stroke:1.5px #ffffff14;white-space:nowrap;user-select:none;pointer-events:none}
+  .hero .wrap{position:relative;display:grid;grid-template-columns:1fr 1.1fr;align-items:end;gap:10px;z-index:3}
+  .hero-copy{padding:120px 0 90px;align-self:center}
+  .hero h1{font-family:var(--display);font-weight:900;text-transform:uppercase;line-height:.88;font-size:clamp(56px,9vw,124px);letter-spacing:-.02em;margin:18px 0 22px}
+  .hero h1 span{display:block;color:var(--orange)}
+  .hero-sub{font-size:clamp(17px,1.8vw,20px);color:#ddd6cc;max-width:34ch}
+  .hero-sub b{color:#fff;font-weight:600}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}
+  .hero-photo{align-self:end;position:relative;margin-right:-60px;margin-left:-40px}
+  .hero-photo img{height:min(calc(100svh - 40px),1000px);width:auto;max-width:none;margin-left:auto;-webkit-mask-image:linear-gradient(to bottom,#000 80%,transparent 100%);mask-image:linear-gradient(to bottom,#000 80%,transparent 100%);filter:drop-shadow(0 30px 60px #000)}
+  .scroll-hint{position:absolute;left:50%;bottom:26px;transform:translateX(-50%);z-index:4;width:24px;height:38px;border:1.5px solid #ffffff60;border-radius:20px}
+  .scroll-hint::after{content:"";position:absolute;left:50%;top:8px;width:3px;height:8px;border-radius:2px;background:#fff;transform:translateX(-50%);animation:sh 1.8s infinite}
+  @keyframes sh{0%{opacity:0;transform:translate(-50%,0)}40%{opacity:1}100%{opacity:0;transform:translate(-50%,12px)}}
+
+  /* DESTAQUES */
+  .stats{border-block:1px solid var(--line);background:var(--bg-2)}
+  .stats .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
+  .stat{padding:30px 22px;border-right:1px solid var(--line);display:flex;gap:16px;align-items:center}
+  .stat:last-child{border-right:0}
+  .stat svg{width:38px;height:38px;flex-shrink:0;stroke:var(--orange);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+  .stat strong{display:block;font-family:var(--display);font-weight:900;font-size:22px;text-transform:uppercase;line-height:1.05}
+  .stat small{color:var(--muted);font-size:13.5px;line-height:1.35;display:block;margin-top:3px}
+
+  /* O SHOW */
+  .show{padding:clamp(90px,12vw,150px) 0}
+  .show .wrap{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,6vw,90px);align-items:center}
+  .show-img{position:relative;border-radius:var(--radius);overflow:hidden;aspect-ratio:4/5}
+  .show-img img{width:100%;height:100%;object-fit:cover;object-position:48% center}
+  .show-img::after{content:"";position:absolute;inset:0;box-shadow:inset 0 0 0 1px var(--line);border-radius:inherit}
+  .show-tag{position:absolute;left:18px;bottom:18px;background:#0a0a0ad9;backdrop-filter:blur(8px);padding:12px 16px;border-radius:12px;font-size:13px;line-height:1.35}
+  .show-tag b{display:block;font-weight:600;font-size:14px}
+  .show p{margin-top:22px}
+  .show .lead b{color:var(--ink);font-weight:500}
+  .checks{list-style:none;margin-top:30px;display:grid;gap:14px}
+  .checks li{display:flex;gap:14px;align-items:flex-start}
+  .checks li::before{content:"";width:22px;height:22px;flex-shrink:0;margin-top:2px;border-radius:50%;background:var(--orange) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23111' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center/14px no-repeat}
+
+  /* VÍDEOS */
+  .videos{padding:clamp(80px,10vw,130px) 0;background:linear-gradient(var(--bg),var(--bg-2) 30%,var(--bg-2) 70%,var(--bg))}
+  .videos-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:40px}
+  .player-grid{display:grid;grid-template-columns:1.85fr 1fr;gap:20px;align-items:start}
+  .player{position:relative;aspect-ratio:16/9;border-radius:var(--radius);overflow:hidden;background:#000;box-shadow:0 30px 80px -30px #000}
+  .player iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .player-poster{position:absolute;inset:0;width:100%;height:100%;display:block}
+  .player-poster img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+  .player-poster::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,#000c,transparent 55%)}
+  .player-poster:hover img{transform:scale(1.03)}
+  .play-btn{position:absolute;inset:0;margin:auto;width:84px;height:84px;border-radius:50%;background:var(--orange);display:grid;place-items:center;z-index:2;box-shadow:0 0 0 0 #ff7a0088;animation:pulse 2.2s infinite;transition:transform .2s}
+  .player-poster:hover .play-btn{transform:scale(1.08)}
+  .play-btn svg{width:32px;height:32px;fill:#111;margin-left:4px}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 #ff7a0077}70%{box-shadow:0 0 0 22px #ff7a0000}100%{box-shadow:0 0 0 0 #ff7a0000}}
+  .now{position:absolute;left:24px;bottom:20px;z-index:2;text-align:left}
+  .now small{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--orange);font-weight:600}
+  .now strong{display:block;font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:clamp(22px,3vw,34px);line-height:1}
+  .now span{font-size:14px;color:#ddd}
+  .playlist{list-style:none;display:grid;gap:10px}
+  .track{display:grid;grid-template-columns:120px 1fr;gap:14px;align-items:center;width:100%;text-align:left;padding:8px;border-radius:14px;border:1px solid transparent;transition:background .2s,border-color .2s}
+  .track:hover{background:#ffffff0a}
+  .track[aria-current="true"]{background:#ff7a0014;border-color:#ff7a0055}
+  .track .thumb{position:relative;aspect-ratio:16/9;border-radius:9px;overflow:hidden}
+  .track .thumb img{width:100%;height:100%;object-fit:cover}
+  .track .thumb::after{content:"";position:absolute;inset:0;margin:auto;width:30px;height:30px;border-radius:50%;background:#000a url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff'%3E%3Cpath d='M8 5v14l11-7z'/%3E%3C/svg%3E") 55% center/14px no-repeat}
+  .track[aria-current="true"] .thumb::after{background-color:var(--orange)}
+  .track strong{display:block;font-weight:600;font-size:15px;line-height:1.25}
+  .track span{font-size:13px;color:var(--muted)}
+  .yt-more{margin-top:28px;text-align:center}
+
+  /* EVENTOS */
+  .eventos{padding:clamp(80px,10vw,130px) 0}
+  .eventos-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:44px}
+  .ev{padding:30px 28px;border-radius:var(--radius);background:var(--card);border:1px solid var(--line);transition:transform .25s,border-color .25s}
+  .ev:hover{transform:translateY(-4px);border-color:#ff7a0066}
+  .ev svg{width:40px;height:40px;stroke:var(--orange);fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+  .ev h3{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:22px;margin:18px 0 8px;line-height:1.05}
+  .ev p{color:var(--muted);font-size:15px}
+
+  /* FORMAÇÕES */
+  .formacoes{padding:clamp(40px,6vw,80px) 0 clamp(80px,10vw,130px)}
+  .form-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:44px}
+  .fm{position:relative;padding:38px 34px;border-radius:24px;background:var(--card);border:1px solid var(--line);display:flex;flex-direction:column;overflow:hidden}
+  .fm.destaque{background:linear-gradient(160deg,#2a1708 0%,var(--card) 55%);border-color:#ff7a0066}
+  .fm .badge{position:absolute;top:22px;right:22px;background:var(--orange);color:#111;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:6px 11px;border-radius:999px}
+  .fm small{font-size:12.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--orange);font-weight:600}
+  .fm h3{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:clamp(28px,3.4vw,38px);line-height:1;margin:10px 0 18px}
+  .instr{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+  .instr span{border:1px solid #ffffff2a;border-radius:999px;padding:6px 14px;font-size:14px;font-weight:400}
+  .fm ul{list-style:none;display:grid;gap:9px;color:#d8d2c8;font-size:15px;margin-bottom:30px}
+  .fm ul li{padding-left:22px;position:relative}
+  .fm ul li::before{content:"";position:absolute;left:0;top:.62em;width:8px;height:8px;border-radius:50%;background:var(--orange)}
+  .fm .btn{margin-top:auto;align-self:flex-start}
+
+  /* CONTRATAR */
+  .contratar{padding:clamp(80px,10vw,130px) 0;background:var(--bg-2);border-top:1px solid var(--line)}
+  .contratar .wrap{display:grid;grid-template-columns:1fr 1.05fr;gap:clamp(40px,6vw,80px);align-items:start}
+  .steps{list-style:none;counter-reset:s;margin-top:36px;display:grid;gap:22px}
+  .steps li{counter-increment:s;display:grid;grid-template-columns:46px 1fr;gap:16px;align-items:start}
+  .steps li::before{content:counter(s);width:46px;height:46px;border-radius:50%;border:1.5px solid var(--orange);color:var(--orange);display:grid;place-items:center;font-family:var(--display);font-weight:900;font-size:18px}
+  .steps strong{display:block;font-weight:600;font-size:17px;margin-top:2px}
+  .steps span{color:var(--muted);font-size:15px}
+  .form{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:clamp(24px,4vw,40px)}
+  .form h3{font-family:var(--display);font-weight:900;text-transform:uppercase;font-size:26px;line-height:1.05}
+  .form > p{color:var(--muted);font-size:14.5px;margin:6px 0 24px}
+  .fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .field{display:flex;flex-direction:column;gap:6px}
+  .field.full{grid-column:1/-1}
+  .field label{font-size:13px;font-weight:500;color:#d8d2c8}
+  .field input,.field select,.field textarea{width:100%;font:inherit;font-size:15px;font-weight:400;color:var(--ink);background:#0d0d0d;border:1px solid #ffffff22;border-radius:12px;padding:13px 14px;transition:border-color .2s,box-shadow .2s;color-scheme:dark}
+  .field textarea{resize:vertical;min-height:84px}
+  .field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--orange);box-shadow:0 0 0 3px #ff7a0033}
+  .field.invalid input,.field.invalid select{border-color:#ff5a4f;box-shadow:0 0 0 3px #ff5a4f22}
+  .field .erro{font-size:12.5px;color:#ff8a80}
+  .form-erro{margin-top:16px;font-size:14px;color:#ff8a80;text-align:center}
+  .form.destaque{animation:destaque 1.6s ease}
+  @keyframes destaque{0%,100%{box-shadow:0 0 0 0 #ff7a0000}30%{box-shadow:0 0 0 6px #ff7a0066}}
+  .form .btn{width:100%;margin-top:22px;padding:17px}
+  .form-note{font-size:12.5px;color:var(--muted);text-align:center;margin-top:12px}
+
+  /* OUÇA */
+  .ouca{padding:clamp(80px,10vw,120px) 0}
+  .ouca .wrap{display:grid;grid-template-columns:1fr 1.2fr;gap:clamp(30px,5vw,70px);align-items:center}
+  .ouca iframe{width:100%;height:352px;border:0;border-radius:16px;background:#181818}
+  .socials{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+  .socials a{display:flex;align-items:center;gap:10px;padding:12px 18px;border-radius:999px;border:1px solid #ffffff2a;font-size:14.5px;font-weight:500;transition:border-color .2s,background .2s}
+  .socials a:hover{border-color:var(--orange);background:#ff7a0012}
+  .socials svg{width:20px;height:20px;fill:currentColor}
+
+  /* CTA FINAL */
+  .final{padding:clamp(90px,12vw,150px) 0;text-align:center;overflow:hidden;background:radial-gradient(50% 80% at 50% 100%,#ff7a0030,transparent 70%)}
+  .final .h2{font-size:clamp(40px,7vw,88px)}
+  .final p{margin:18px auto 34px;color:var(--muted);font-size:18px;max-width:46ch}
+
+  footer{border-top:1px solid var(--line);padding:34px 0;color:var(--muted);font-size:13.5px}
+  footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+  footer nav{display:flex;gap:18px}
+  footer nav a:hover{color:var(--ink)}
+
+  /* WhatsApp flutuante */
+  .wa-float{position:fixed;right:20px;bottom:20px;z-index:60;width:60px;height:60px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 10px 30px -6px #000c;transition:transform .2s,opacity .3s}
+  .wa-float:hover{transform:scale(1.08)}
+  .wa-float svg{width:32px;height:32px;fill:#fff}
+  .wa-float.hide{opacity:0;pointer-events:none}
+
+  /* Revelar ao rolar */
+  .reveal{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s ease}
+  .reveal.in{opacity:1;transform:none}
+
+  /* Responsivo */
+  @media (max-width:980px){
+    .menu{display:none}
+    .hero .wrap{grid-template-columns:1fr;gap:0}
+    .hero-copy{padding:0 0 90px;order:2;margin-top:-90px;position:relative;z-index:3}
+    .hero-photo{order:1;margin:72px -16px 0;width:calc(100% + 32px);max-width:560px;justify-self:center}
+    .hero-photo img{height:auto;width:100%;max-width:100%}
+    .hero-photo img{-webkit-mask-image:linear-gradient(to bottom,#000 55%,transparent 92%);mask-image:linear-gradient(to bottom,#000 55%,transparent 92%)}
+    .hero-bgword{top:30%}
+    .scroll-hint{display:none}
+    .stats .wrap{grid-template-columns:1fr 1fr}
+    .stat:nth-child(2){border-right:0}
+    .stat:nth-child(-n+2){border-bottom:1px solid var(--line)}
+    .show .wrap,.contratar .wrap,.ouca .wrap{grid-template-columns:1fr}
+    .show-img{aspect-ratio:4/3}
+    .player-grid{grid-template-columns:1fr}
+    .eventos-grid{grid-template-columns:1fr 1fr}
+    .form-grid{grid-template-columns:1fr;max-width:560px}
+  }
+  @media (max-width:640px){
+    .eyebrow{letter-spacing:.18em;font-size:12px}
+    .hero-copy{margin-top:-120px}
+    .nav .btn span{display:none}
+    .nav .btn{padding:10px 12px}
+    .stats .wrap{grid-template-columns:1fr}
+    .stat{border-right:0;border-bottom:1px solid var(--line)}
+    .stat:last-child{border-bottom:0}
+    .eventos-grid,.form-grid,.fields{grid-template-columns:1fr}
+    .track{grid-template-columns:112px 1fr}
+    .play-btn{width:66px;height:66px}
+    .now{left:16px;bottom:14px}
+    .fm{padding:32px 24px}
+    .hero-cta .btn{flex:1}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+    .reveal{opacity:1;transform:none}
+  }
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.3-.6-.4zM12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8zM20.5 3.5A11.8 11.8 0 0 0 1.7 17.7L0 24l6.4-1.7A11.8 11.8 0 0 0 24 12c0-3.2-1.2-6.2-3.5-8.5z"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z"/></symbol>
+  <symbol id="i-yt" viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1c.5-1.8.5-5.8.5-5.8s0-4-.5-5.8zM9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></symbol>
+  <symbol id="i-sp" viewBox="0 0 24 24"><path d="M12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24zm5.5 17.3a.7.7 0 0 1-1 .3c-2.8-1.7-6.4-2.1-10.6-1.2a.7.7 0 1 1-.3-1.4c4.6-1 8.5-.6 11.6 1.3.4.2.5.6.3 1zm1.5-3.3a.9.9 0 0 1-1.3.3c-3.2-2-8.1-2.6-11.9-1.4a.9.9 0 1 1-.5-1.8c4.3-1.3 9.7-.7 13.4 1.6.4.3.6.8.3 1.3zm.1-3.4C15.3 8.3 8.9 8.1 5.2 9.2a1.1 1.1 0 1 1-.6-2.1c4.3-1.3 11.3-1 15.7 1.6a1.1 1.1 0 0 1-1.2 1.9z"/></symbol>
+</svg>
+
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a href="#topo" class="logo" aria-label="Felipe Carvalho — início"><img src="img/logo.png" alt="Felipe Carvalho" width="644" height="340"></a>
+    <nav class="menu" aria-label="Seções">
+      <a href="#show">O show</a>
+      <a href="#videos">Vídeos</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#formacoes">Formatos</a>
+      <a href="#contratar">Contratar</a>
+    </nav>
+    <a class="btn btn-wa" href="#contratar"><svg><use href="#i-wa"/></svg><span>Consultar data</span></a>
+  </div>
+</header>
+
+<main id="topo">
+
+  <section class="hero">
+    <div class="hero-bgword" aria-hidden="true">SERTANEJO</div>
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">Cantor sertanejo · Show ao vivo</p>
+        <h1>Felipe <span>Carvalho</span></h1>
+        <p class="hero-sub">Sertanejo universitário e os <b>grandes modões</b>, com muita interação com o público, pro seu casamento ou evento ficar inesquecível do início ao fim.</p>
+        <div class="hero-cta">
+          <a class="btn btn-wa" href="#contratar"><svg><use href="#i-wa"/></svg>Consultar minha data</a>
+          <a class="btn btn-ghost" href="#videos"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>Assistir ao show</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="img/felipe-cintura.webp" alt="Felipe Carvalho" width="1100" height="1439" fetchpriority="high">
+      </div>
+    </div>
+    <a href="#show" class="scroll-hint" aria-label="Rolar para o conteúdo"></a>
+  </section>
+
+  <section class="stats" aria-label="Destaques">
+    <div class="wrap">
+      <div class="stat">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <div><strong>2h de show</strong><small>Repertório pra animar a festa inteira</small></div>
+      </div>
+      <div class="stat">
+        <svg viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2"/><circle cx="12" cy="14" r="4"/><circle cx="12" cy="6.5" r="1.2"/></svg>
+        <div><strong>Som incluso</strong><small>Equipamento profissional já no orçamento</small></div>
+      </div>
+      <div class="stat">
+        <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.5"/><path d="M16 14.2c2.8.3 5 2.6 5 5.8"/></svg>
+        <div><strong>Até 200</strong><small>convidados com qualidade e estrutura</small></div>
+      </div>
+      <div class="stat">
+        <svg viewBox="0 0 24 24"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        <div><strong>Pedidos</strong><small>Convidados pedem músicas e cantam junto</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="show" id="show">
+    <div class="wrap">
+      <div class="show-img reveal">
+        <img src="img/capa-modao.webp" alt="Felipe Carvalho cantando ao vivo com violão, sanfona e percussão" loading="lazy">
+        <div class="show-tag"><b>DVD Músicas de Buteco</b>Gravado ao vivo em Goiânia</div>
+      </div>
+      <div class="reveal">
+        <p class="eyebrow">O show</p>
+        <h2 class="h2">Do modão ao <em>universitário</em></h2>
+        <p class="lead">Um show que reúne <b>sertanejo universitário e os grandes modões</b>, com repertório sertanejo variado e muita interação com o público.</p>
+        <p class="lead">A proposta é deixar os convidados à vontade pra participar, pedir músicas e cantar junto, tornando o evento mais divertido e envolvente do início ao fim.</p>
+        <ul class="checks">
+          <li>Repertório variado, montado pro clima do seu evento</li>
+          <li>Equipamentos de som profissionais já inclusos no orçamento</li>
+          <li>Estrutura pronta pra eventos de até 200 pessoas</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="videos" id="videos">
+    <div class="wrap">
+      <div class="videos-head reveal">
+        <div>
+          <p class="eyebrow">Assista</p>
+          <h2 class="h2">DVD Músicas<br>de <em>Buteco</em></h2>
+        </div>
+        <p class="lead" style="max-width:38ch">Gravado ao vivo em Goiânia. Dê o play e sinta como é o show.</p>
+      </div>
+      <div class="player-grid reveal">
+        <div class="player" id="player">
+          <button class="player-poster" id="poster" aria-label="Reproduzir vídeo">
+            <img src="img/por-toda-vida.webp" alt="" id="poster-img">
+            <span class="play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+            <span class="now"><small>Tocando agora</small><strong id="now-title">Por toda vida</strong><span id="now-artist">Nechivile</span></span>
+          </button>
+        </div>
+        <ul class="playlist" id="playlist" aria-label="Lista de vídeos"></ul>
+      </div>
+      <p class="yt-more"><a class="btn btn-ghost" href="https://youtube.com/playlist?list=PLmecEgVu3P52wYwwgE-mFGfpSdQsLtNv1" target="_blank" rel="noopener"><svg style="fill:#ff0000"><use href="#i-yt"/></svg>Ver playlist completa no YouTube</a></p>
+    </div>
+  </section>
+
+  <section class="eventos" id="eventos">
+    <div class="wrap">
+      <div class="reveal">
+        <p class="eyebrow">Para o seu evento</p>
+        <h2 class="h2">Música certa pra<br><em>cada momento</em></h2>
+      </div>
+      <div class="eventos-grid">
+        <article class="ev reveal">
+          <svg viewBox="0 0 24 24"><circle cx="8.5" cy="14" r="5.5"/><circle cx="15.5" cy="14" r="5.5"/><path d="M8.5 8.5 7 4h3zM15.5 8.5 14 4h3z"/></svg>
+          <h3>Casamentos</h3>
+          <p>Do universitário aos clássicos sertanejos que fazem todo mundo cantar junto do começo ao fim da festa.</p>
+        </article>
+        <article class="ev reveal">
+          <svg viewBox="0 0 24 24"><path d="M4 21h16M5 21V12h14v9M8 12V9M12 12V9M16 12V9"/><path d="M8 6.5c0-1 1-1.5 0-3M12 6.5c0-1 1-1.5 0-3M16 6.5c0-1 1-1.5 0-3"/></svg>
+          <h3>Aniversários</h3>
+          <p>Aquele som ao vivo que transforma a comemoração numa festa de verdade.</p>
+        </article>
+        <article class="ev reveal">
+          <svg viewBox="0 0 24 24"><path d="M3 7h18v13H3zM8 7V4h8v3M3 12h18"/></svg>
+          <h3>Eventos e confraternizações</h3>
+          <p>Festas particulares, empresas e encontros com repertório pra todas as idades.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="formacoes" id="formacoes">
+    <div class="wrap">
+      <div class="reveal">
+        <p class="eyebrow">Formatos</p>
+        <h2 class="h2">Escolha o <em>formato</em></h2>
+      </div>
+      <div class="form-grid">
+        <article class="fm reveal">
+          <small>Intimista</small>
+          <h3>Solo</h3>
+          <div class="instr"><span>Voz</span><span>Violão</span></div>
+          <ul>
+            <li>Show com duração de 2 horas</li>
+            <li>Som profissional incluso</li>
+            <li>Ideal pra cerimônias, recepções e eventos intimistas</li>
+          </ul>
+          <a class="btn btn-ghost" href="#contratar" data-formato="Solo (voz e violão)"><svg><use href="#i-wa"/></svg>Pedir orçamento</a>
+        </article>
+        <article class="fm reveal">
+          <small>Com sanfona</small>
+          <h3>Acústico</h3>
+          <div class="instr"><span>Voz</span><span>Violão</span><span>Sanfona</span></div>
+          <ul>
+            <li>Show com duração de 2 horas</li>
+            <li>Som profissional incluso</li>
+            <li>O som clássico do sertanejo, com a sanfona em destaque</li>
+          </ul>
+          <a class="btn btn-ghost" href="#contratar" data-formato="Acústico (voz, violão e sanfona)"><svg><use href="#i-wa"/></svg>Pedir orçamento</a>
+        </article>
+        <article class="fm destaque reveal">
+          <span class="badge">Mais completo</span>
+          <small>Show completo</small>
+          <h3>Trio</h3>
+          <div class="instr"><span>Voz</span><span>Violão</span><span>Sanfona</span><span>Percussão</span></div>
+          <ul>
+            <li>Show com duração de 2 horas</li>
+            <li>Som profissional incluso</li>
+            <li>Mais pegada e animação pra pista de dança</li>
+          </ul>
+          <a class="btn btn-wa" href="#contratar" data-formato="Trio (voz, violão, sanfona e percussão)"><svg><use href="#i-wa"/></svg>Pedir orçamento</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contratar" id="contratar">
+    <div class="wrap">
+      <div class="reveal">
+        <p class="eyebrow">Como contratar</p>
+        <h2 class="h2">Garanta a <em>sua data</em></h2>
+        <ol class="steps">
+          <li><div><strong>Preencha o formulário</strong><span>Conte a data, o horário, o endereço e o tipo do seu evento. A mensagem vai pronta pro WhatsApp.</span></div></li>
+          <li><div><strong>Receba sua proposta</strong><span>Você recebe o orçamento personalizado pra formação escolhida.</span></div></li>
+          <li><div><strong>Reserve com o contrato</strong><span>A data fica garantida com 50% de sinal na assinatura do contrato.</span></div></li>
+          <li><div><strong>É só curtir a festa</strong><span>O restante é pago até o dia do evento. O som fica por nossa conta.</span></div></li>
+        </ol>
+      </div>
+      <form class="form reveal" id="form-wa" novalidate>
+        <h3>Consulte sua data</h3>
+        <p>Preencha todos os campos e a mensagem já vai pronta pro WhatsApp.</p>
+        <div class="fields">
+          <div class="field full"><label for="f-nome">Seu nome</label><input id="f-nome" name="nome" required minlength="2" autocomplete="name" placeholder="Como podemos te chamar?"></div>
+          <div class="field"><label for="f-tipo">Tipo de evento</label>
+            <select id="f-tipo" name="tipo" required><option value="" selected disabled>Selecione</option><option>Casamento</option><option>Aniversário</option><option>Corporativo</option><option>Bar</option><option>Outro</option></select></div>
+          <div class="field"><label for="f-data">Data do evento</label><input id="f-data" name="data" type="date" required></div>
+          <div class="field"><label for="f-hora">Horário</label><input id="f-hora" name="hora" type="time" required></div>
+          <div class="field"><label for="f-conv">Nº de convidados</label><input id="f-conv" name="convidados" inputmode="numeric" required pattern="[0-9]{1,5}" placeholder="Ex.: 120"></div>
+          <div class="field full"><label for="f-end">Endereço do evento</label><input id="f-end" name="endereco" required minlength="8" autocomplete="street-address" placeholder="Rua, número, bairro e cidade (ou nome do local)"></div>
+          <div class="field full"><label for="f-form">Formato</label>
+            <select id="f-form" name="formacao" required><option value="" selected disabled>Selecione</option><option>Ainda não sei</option><option>Solo (voz e violão)</option><option>Acústico (voz, violão e sanfona)</option><option>Trio (voz, violão, sanfona e percussão)</option></select></div>
+          <div class="field full"><label for="f-msg">Observações (opcional)</label><textarea id="f-msg" name="msg" placeholder="Ex.: música da entrada da noiva, cerimônia no local, horário de início do show..."></textarea></div>
+        </div>
+        <button class="btn btn-wa" type="submit"><svg><use href="#i-wa"/></svg>Enviar pelo WhatsApp</button>
+        <p class="form-erro" id="form-erro" role="alert" hidden></p>
+        <p class="form-note">Nada é enviado pelo site: o WhatsApp abre com a mensagem pra você revisar.</p>
+      </form>
+    </div>
+  </section>
+
+  <section class="ouca" id="ouca">
+    <div class="wrap">
+      <div class="reveal">
+        <p class="eyebrow">Ouça e siga</p>
+        <h2 class="h2">Leve o show<br><em>com você</em></h2>
+        <p class="lead" style="margin-top:18px">Escute no Spotify e acompanhe a agenda e os bastidores no Instagram.</p>
+        <div class="socials">
+          <a href="https://www.instagram.com/ofelipecantor/" target="_blank" rel="noopener"><svg><use href="#i-ig"/></svg>@ofelipecantor</a>
+          <a href="https://open.spotify.com/intl-pt/artist/2UkRGOVHLDnMWNOs1Fw3Lr" target="_blank" rel="noopener"><svg style="fill:#1ed760"><use href="#i-sp"/></svg>Spotify</a>
+          <a href="https://youtube.com/playlist?list=PLmecEgVu3P52wYwwgE-mFGfpSdQsLtNv1" target="_blank" rel="noopener"><svg style="fill:#ff0000"><use href="#i-yt"/></svg>YouTube</a>
+        </div>
+      </div>
+      <iframe class="reveal" title="Felipe Carvalho no Spotify" src="https://open.spotify.com/embed/artist/2UkRGOVHLDnMWNOs1Fw3Lr?utm_source=generator&theme=0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <section class="final">
+    <div class="wrap reveal">
+      <p class="eyebrow" style="justify-content:center">Vamos fazer essa festa?</p>
+      <h2 class="h2">Sua data pode<br>estar <em>livre</em></h2>
+      <p>As datas são reservadas por ordem de contrato. Preencha o formulário e consulte a disponibilidade.</p>
+      <a class="btn btn-wa" href="#contratar"><svg><use href="#i-wa"/></svg>Consultar minha data</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <a href="#topo" class="logo"><img src="img/logo.png" alt="Felipe Carvalho" width="644" height="340" loading="lazy"></a>
+    <nav aria-label="Redes sociais">
+      <a href="https://www.instagram.com/ofelipecantor/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://youtube.com/playlist?list=PLmecEgVu3P52wYwwgE-mFGfpSdQsLtNv1" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://open.spotify.com/intl-pt/artist/2UkRGOVHLDnMWNOs1Fw3Lr" target="_blank" rel="noopener">Spotify</a>
+    </nav>
+    <span>© <span id="ano">2026</span> Felipe Carvalho</span>
+  </div>
+</footer>
+
+<a class="wa-float" id="wa-float" href="#contratar" aria-label="Falar no WhatsApp"><svg><use href="#i-wa"/></svg></a>
+
+<script>
+  const WA = '5531996172484';
+  const waLink = msg => `https://wa.me/${WA}?text=${encodeURIComponent(msg)}`;
+  document.getElementById('ano').textContent = new Date().getFullYear();
+
+  // Nav com fundo ao rolar + esconder botão flutuante na seção do formulário
+  const nav = document.getElementById('nav');
+  const onScroll = () => nav.classList.toggle('scrolled', scrollY > 30);
+  onScroll(); addEventListener('scroll', onScroll, {passive:true});
+  const waFloat = document.getElementById('wa-float');
+  new IntersectionObserver(([e]) => waFloat.classList.toggle('hide', e.isIntersecting), {threshold:.25})
+    .observe(document.getElementById('contratar'));
+
+  // Animação de entrada
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), {threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // Player do YouTube (só carrega o iframe quando a pessoa clica)
+  const VIDEOS = [
+    {id:'2eq5Vl_Krb8', title:'Por toda vida', artist:'Nechivile', img:'img/por-toda-vida.webp'},
+    {id:'GyPmVVf_d4o', title:'Um século sem ti', artist:'Mato Grosso e Mathias', img:'img/um-seculo-sem-ti.webp'},
+    {id:'zTOt13zHdIA', title:'Agarrada em mim', artist:'Bruno e Marrone', img:'img/agarrada-em-mim.webp'},
+    {id:'nVIL2-5WNrU', title:'Tô fazendo falta', artist:'Joanna', img:'img/to-fazendo-falta.webp'},
+    {id:'ogc-kJEhOho', title:'Convite de casamento', artist:'Gian e Giovanni', img:'img/convite-de-casamento.webp'}
+  ];
+  const player = document.getElementById('player');
+  const list = document.getElementById('playlist');
+  let current = 0;
+
+  list.innerHTML = VIDEOS.map((v, i) => `
+    <li><button class="track" data-i="${i}" aria-current="${i === 0}">
+      <span class="thumb"><img src="${v.img}" alt="" loading="lazy"></span>
+      <span><strong>${v.title}</strong><span>${v.artist}</span></span>
+    </button></li>`).join('');
+
+  function play(i) {
+    current = i;
+    const v = VIDEOS[i];
+    player.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${v.id}?autoplay=1&rel=0&modestbranding=1&playsinline=1"
+      title="${v.title} — Felipe Carvalho" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
+    list.querySelectorAll('.track').forEach(t => t.setAttribute('aria-current', t.dataset.i == i));
+  }
+  document.getElementById('poster').addEventListener('click', () => play(current));
+  list.addEventListener('click', e => {
+    const t = e.target.closest('.track'); if (!t) return;
+    play(+t.dataset.i);
+    if (innerWidth < 980) player.scrollIntoView({behavior:'smooth', block:'center'});
+  });
+
+  // Todo botão de contato leva ao formulário (o WhatsApp só abre por ele)
+  const form = document.getElementById('form-wa');
+  const selForm = document.getElementById('f-form');
+  document.querySelectorAll('a[href="#contratar"]').forEach(a => a.addEventListener('click', e => {
+    e.preventDefault();
+    if (a.dataset.formato) selForm.value = a.dataset.formato;
+    form.scrollIntoView({behavior:'smooth', block:'start'});
+    form.classList.remove('destaque'); void form.offsetWidth; form.classList.add('destaque');
+    setTimeout(() => document.getElementById('f-nome').focus({preventScroll:true}), 600);
+  }));
+
+  // Formulário -> mensagem pronta no WhatsApp (só com todos os campos preenchidos)
+  const hoje = new Date(); hoje.setMinutes(hoje.getMinutes() - hoje.getTimezoneOffset());
+  document.getElementById('f-data').min = hoje.toISOString().slice(0, 10);
+  const ERROS = {
+    nome: 'Informe seu nome.', tipo: 'Escolha o tipo de evento.', data: 'Informe uma data a partir de hoje.',
+    hora: 'Informe o horário.', convidados: 'Informe o número de convidados (só números).',
+    endereco: 'Informe o endereço ou nome do local.', formacao: 'Escolha um formato (pode ser "Ainda não sei").'
+  };
+  const marcar = el => {
+    const field = el.closest('.field');
+    let msg = field.querySelector('.erro');
+    el.value = el.value.trimStart();
+    const ok = !el.required || (el.value.trim() !== '' && el.checkValidity());
+    field.classList.toggle('invalid', !ok);
+    el.setAttribute('aria-invalid', !ok);
+    if (!ok && !msg) { msg = document.createElement('span'); msg.className = 'erro'; field.appendChild(msg); }
+    if (msg) msg.textContent = ok ? '' : ERROS[el.name];
+    return ok;
+  };
+  form.querySelectorAll('input, select').forEach(el => {
+    el.addEventListener(el.tagName === 'SELECT' ? 'change' : 'blur', () => marcar(el));
+    el.addEventListener('input', () => el.closest('.field').classList.contains('invalid') && marcar(el));
+  });
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const erroGeral = document.getElementById('form-erro');
+    const invalidos = [...form.querySelectorAll('[required]')].filter(el => !marcar(el));
+    if (invalidos.length) {
+      erroGeral.textContent = 'Preencha todos os campos obrigatórios para continuar.';
+      erroGeral.hidden = false;
+      invalidos[0].focus();
+      return;
+    }
+    erroGeral.hidden = true;
+    const f = new FormData(form);
+    const g = k => (f.get(k) || '').toString().trim();
+    const campos = [
+      ['Nome', g('nome')], ['Evento', g('tipo')], ['Data', g('data').split('-').reverse().join('/')], ['Horário', g('hora')],
+      ['Endereço', g('endereco')], ['Convidados', g('convidados')], ['Formato', g('formacao')], ['Observações', g('msg')]
+    ].filter(([, v]) => v).map(([k, v]) => `*${k}:* ${v}`);
+    const msg = ['Olá Felipe! Vim pelo site e gostaria de consultar uma data.', '', ...campos].join('\n');
+    window.open(waLink(msg), '_blank', 'noopener');
+  });
+</script>
+</body>
+</html>
